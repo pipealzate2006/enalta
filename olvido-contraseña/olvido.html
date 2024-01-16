@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../Fotos/enaltashop.png" type="image/x-icon">
+    <title>Recuperar contraseña</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .info {
+            text-align: center;
+            background: -webkit-linear-gradient(left, #148de9, #857f7f, #857f7f, #148de9);
+            padding: 20px;
+            border-radius: 50px 50px 50px 50px;
+            max-width: 400px;
+        }
+
+        .input-group {
+            margin-bottom: 10px;
+        }
+
+        .input-group-text {
+            background-color: #fff; /* Color de fondo del símbolo '@' */
+        }
+
+        .btn-primary {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body background="../Fotos/74a9710422bc990c920298e487529da9.jpg">
+    <div class="info">
+        <h1>Ingrese su correo electrónico para recuperar la contraseña</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut natus repellat! Fugit quidem
+            delectus nostrum harum in mollitia, repellendus sint blanditiis quod asperiores neque est vel iure
+            numquam dolorem inventore eos placeat omnis debitis? Optio ullam distinctio omnis itaque voluptates
+            reiciendis animi, amet in, libero corrupti labore consectetur? Consectetur veritatis cupiditate numquam
+            minima! Sed sint nemo cumque, corrupti consectetur impedit omnis sit consequuntur recusandae porro ipsum
+            eos, facere tempore.</p>
+        <form class="row g-3" action="../olvido-contraseña/olvido.php" method="post">
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Email" name="correo"
+                        aria-label="Correo electrónico" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-primary" name="Enviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <script src="../estilos/js/bootstrap.min.js"></script>
+</body>
+
+</html>
